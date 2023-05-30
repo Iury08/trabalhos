@@ -1,0 +1,299 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+}
+
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+
+
+/* CABEÇALHO */
+header h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid rgb(85, 85, 85) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: inline-block;  
+}
+
+
+/* GRID DE PRODUTOS */
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card  {
+    width: 31%;
+    margin: 1% 1%;
+    padding: 15px;
+    display: inline-block;
+}
+
+
+
+
+.product-image {
+    height:350px;
+    width: 342px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: cover;
+    align-content: center;
+    border: 4px #e9e6e6 solid;
+}
+
+
+
+#img-1 {
+ background-image: url('../img/TINTA.jpg');
+
+}
+
+#img-2 {
+    background-image: url('../img/Araripe.jpg');
+    
+}
+
+#img-3 {
+    background-image: url('../img/torneira-para-lavatorio-de-mesa-bica-media-cromado-mais-perflex-541596.jpg');
+    
+}
+
+#img-4 {
+    background-image: url('../img/96968745.jpg');
+    
+}
+
+#img-5 {
+    background-image: url('../img/sanitario.jpg');
+    
+}
+
+#img-6 {
+    background-image: url('../img/ducha-higienica-em-abs-maruja-120m-viqua-411585.jpg');
+    
+}
+
+h3 {
+    margin: 10px;
+    color: rgb(57, 57, 197);
+    font-size: 18px;
+    text-align: left;
+    padding-left: 6px;
+    border-left: 4px solid rgb(46, 46, 206);
+
+}
+
+
+.card p {
+    margin-bottom: 10px;
+    text-indent: 7px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(57, 57, 197);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+
+}
+
+.btn:hover {
+    background-color: rgb(80, 80, 187);
+}
+
+
+/* FOOTER */
+
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+#footer-content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem;
+}
+
+#footer-contacts h2 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+#footer-contacts h2:hover {
+    color: var(--color-neutral-30);
+    transition: 0.5s;
+}
+
+
+
+.footer-link {
+    text-decoration: none;
+}
+
+
+
+
+
+#footer-social {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    height: 3.5rem;
+}
+
+#footer-social .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer-social .footer-link i {
+    font-size: 1.25rem;
+
+}
+
+#footer-social .footer-link:hover {
+    opacity: 0.8;
+ 
+
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9,#ff2992,#ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+
+
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+
+
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+
+}
+
+#footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem ;
+}
+
+#input-group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+    display: flex;
+
+    
+}
+
+#input-group input {
+    all: unset;
+    padding:0.75rem;
+    width: 100%;
+
+}
+
+#input-group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 0.25rem;
+    font-size: 1.25rem ;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+
+}
+
+#input-group button:hover {
+    opacity: 0.8;
+
+}
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width:768px) {
+    #footer-content {
+        grid-template-columns: repeat(2,1fr);
+        gap : 2rem;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+    #footer-content {
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem 2rem;
+    }
+}

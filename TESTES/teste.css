@@ -1,0 +1,147 @@
+body {
+    padding: 20px;
+}
+
+p {
+    font-size: 30px;
+
+}
+
+#Titulo-principal{
+   background-color: #638085;
+   color: white;
+   padding: 2%;
+   font-family: Arial;
+}
+
+
+.rosa {
+    color: rgb(rgb(18, 233, 108), rgb(27, 18, 148), rgb(243, 181, 10));
+}
+
+.fonte-serifada {
+    font-family: Times New Roman;
+    color: rgb(14, 74, 165);
+} 
+
+.fonte-grande {
+    font-size: 64px;
+}
+
+.fonte-pequena {
+    font-size: 10px;
+}
+
+.fonte-negrito {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.box-model {
+    width: 200px;
+    height: 100px;
+    border: 2px solid coral;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family:Helvetica;
+    color: coral;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+.decoration {
+    text-decoration: none;
+
+}
+
+.visitado:visited {
+    color: coral;
+}
+
+.estilo-hover:hover {
+    background-color: aquamarine;
+}
+
+.btn {
+    background-color: aqua;
+    border: 3px solid coral;
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 120px;
+    padding: 12px 7px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: coral;
+}
+
+.sem-estilo {
+    list-style: none;
+}
+
+.inline {
+    width: 50px ;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+.bloco {
+    display: block;
+}
+
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700px;
+    color: black;
+    background-color:dimgrey;
+}
+
+.primeiro-elemento p:first-child {
+    color: purple;
+    font-weight: bold;
+
+}
+.primeira-letra::first-letter {
+    color: blue;
+
+}
+
+h2 {
+    color: red;
+}
+
+.título {
+    color: green;
+}
+
+#meu-titulo-preferido {
+    color: yellow;
+}
+
+h2 {
+    color: purple;
+}
